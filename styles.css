@@ -1,3 +1,5 @@
+/* -- GENERAL -- */
+
 body{
     font-family: 'roboto', sans-serif;
     display: flex;
@@ -25,13 +27,21 @@ a{
 h1{
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
+    color: #2BE3CC;
 }
+
+h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #F76DDA;
+}
+
+/* -- HEADER -- */
 
 .header{
     display: flex;
     flex-direction: column;
-    background-color: #333333;
+    background-color: #3B3B3B;
     padding: 16px;
 }
 
@@ -46,7 +56,6 @@ h1{
 .headerBar img{
     display: flex;
     width: 200px;
-   
 }
 
 .hdrBarRight{
@@ -65,7 +74,6 @@ h1{
 
 .hdrContentLeft{
     display: flex;
-    flex: 1;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -74,7 +82,7 @@ h1{
 .hdrContentLeft button{
     font-size: 16px;
     font-weight: 600;
-    padding: 6px 28px;
+    padding: 6px 20px;
     color: #ffffff;
     border-radius: 12px;
     background-color: #3882f6;
@@ -88,3 +96,40 @@ h1{
 }
 
 
+/* -- LAYER 1 -- */
+
+.layer1{
+    margin: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    gap: 30px;
+}
+
+.layer1-cards{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card:hover{
+    background-color: #2BE3CC;
+}
+
+.card{
+    width: 250px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img-card{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: #135AFB 4px solid;
+}
