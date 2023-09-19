@@ -133,3 +133,79 @@ h2{
     object-fit: cover;
     border: #135AFB 4px solid;
 }
+
+/* -- LAYER 2 -- */
+
+.layer2{
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 48px;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.layer2-text{
+    width: 800px;
+    font-size: 20px;
+    text-align: flex-start;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+.quote-firm{
+    font-size: 16px;
+    text-align: right;
+    font-weight: 800;
+}
+
+/* -- LAYER 3 -- */
+
+.layer3{
+    display: flex;
+    align-items: center;
+    margin: 48px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.layer3-content{
+    display: flex;
+    background-color: #3882f6;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.layer3-text{
+    font-size: 14px;
+    color:#ffffff;
+}
+
+.layer3-text h1{
+    font-size: 16px;
+    font-weight: 900;
+    color:#ffffff
+}
+
+.layer3 button{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px 20px;
+    color: #ffffff;
+    border-radius: 12px;
+    background-color: #3882f6;
+}
+
+/* -- FOOTER -- */
+
+.footer{
+    display: flex;
+    flex-shrink: 0;
+    font-size: 16px;
+    background-color: #3B3B3B;
+    color: #ffffff;
+    justify-content: center;
+}
